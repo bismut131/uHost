@@ -81,12 +81,13 @@ main {
         grid-template-columns: 10rem auto;
         grid-row-gap: 1rem;
         grid-column-gap: 0.5rem;
-        grid-auto-rows: ;
     }
-    .signup-form__checkbox {
-        grid-column:span 2;
-    }
+
     .signup-form [id="title"] {
+        grid-column: span 2;
+    }
+
+    .signup-form__checkbox {
         grid-column: span 2;
     }
 }
